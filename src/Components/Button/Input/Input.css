@@ -1,0 +1,76 @@
+.input{
+    display: block;
+    width: 150px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0.50em;
+    border: 1px solid rgb(194, 191, 191);
+    background-color:white;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+.small{
+    height:1.6rem;
+    font-size:0.675rem;
+}
+
+.small:focus{
+    border: 1px solid #555;
+}
+
+.medium{
+    height:2rem;
+    font-size:.8rem;
+}
+
+.medium:focus{
+    border: 1px solid #555;
+}
+
+.large{
+    height:2.5rem;
+    font-size: 1rem;
+}
+
+.large:focus{
+    border: 1px solid #555;
+}
+
+.focused{
+    height:1.6rem;
+    font-size:0.675rem;
+}
+
+.focused:focus{
+    height:1.6rem;
+    font-size:0.675rem;
+    background-color: lightblue;
+
+}
+
+.animated{
+    height:1.6rem;
+    font-size:0.675rem;
+    transition: width 0.4s ease-in-out;
+
+}
+
+.animated:focus{
+    width: 90%;
+
+}
+
+.textarea{
+  width: 400px;
+  height: 150px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  text-align: start;
+  justify-content:flex-start;
+  resize: none;
+}
