@@ -1,14 +1,17 @@
 import React from 'react'
-import Primary from '../../Button/Button.stories'
-import Large from '../../Button/Input/Input.stories'
+import Button from '../../Button/Button'
+import Large from '../../Button/Input/Input'
 
 export default{
     title: "form/Subscription",
 };
+const Template =args => <Button {...args} />
+
 
 export const PrimarySubscription = () => (
     <>
         <Large />
-        <Primary />
+        <Button variant='primary'>Primary</Button>
+
     </>
 )
