@@ -1,0 +1,21 @@
+.button{
+    border: 1px;
+    border-radius: 5%;
+    padding: 2% 4%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 7%;
+    opacity: 0.6;
+}
+
+.buttonhover:hover{
+    opacity: 1;
+}
+
+.primary {background-color: dodgerblue;}
+.secondary {background-color:silver; color: black;}
+.success {background-color: #4caf50;}
+.danger {background-color: crimson; color: white;}
